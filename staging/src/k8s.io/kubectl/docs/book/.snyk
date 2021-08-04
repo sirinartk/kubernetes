@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > hoek:
+        patched: '2021-08-04T03:32:34.496Z'
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-08-04T03:32:34.496Z'
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-08-04T03:32:34.496Z'
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-04T03:32:34.496Z'
+  'npm:request:20160119':
+    - gitbook-plugin-mermaid > phantomjs > request:
+        patched: '2021-08-04T03:32:34.496Z'
+  'npm:tough-cookie:20170905':
+    - gitbook-plugin-mermaid > phantomjs > request > tough-cookie:
+        patched: '2021-08-04T03:32:34.496Z'
+  'npm:tunnel-agent:20170305':
+    - gitbook-plugin-mermaid > phantomjs > request > tunnel-agent:
+        patched: '2021-08-04T03:32:34.496Z'
