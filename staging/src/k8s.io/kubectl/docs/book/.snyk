@@ -1,0 +1,107 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook-cli > npm > request > hawk > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > hoek
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-plugin-mermaid > phantomjs > request > hawk > hoek
+    - gitbook-cli > npm > request > hawk > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > boom > hoek
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-plugin-mermaid > phantomjs > request > hawk > boom > hoek
+    - gitbook-cli > npm > request > hawk > sntp > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > sntp > hoek
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > sntp > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-plugin-mermaid > phantomjs > request > hawk > sntp > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > hoek
+    - gitbook-cli > npmi > npm > request > hawk > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > hoek
+    - gitbook-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-plugin-mermaid > phantomjs > request > hawk > cryptiles > boom
+          > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > boom > hoek
+    - gitbook-cli > npmi > npm > request > hawk > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > boom > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom >
+          hoek
+    - gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles >
+          boom > hoek
+  'npm:request:20160119':
+    - gitbook-plugin-mermaid > phantomjs > request:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:request:20160119'
+        path: gitbook-plugin-mermaid > phantomjs > request
+  'npm:tough-cookie:20170905':
+    - gitbook-plugin-mermaid > phantomjs > request > tough-cookie:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-plugin-mermaid > phantomjs > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - gitbook-plugin-mermaid > phantomjs > request > tunnel-agent:
+        patched: '2024-12-16T02:26:11.200Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gitbook-plugin-mermaid > phantomjs > request > tunnel-agent
